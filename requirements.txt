@@ -1,1 +1,8 @@
-docker/requirements.txt
+librosa>=0.6.1
+tqdm
+tensorboardX
+python-levenshtein
+opencv-python
+albumentations
+acoustics
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
